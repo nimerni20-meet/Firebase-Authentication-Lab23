@@ -5,7 +5,7 @@
     <title>Signup</title>
 </head>
 <body>
-    <form method="POST" action="/">
+    <form method="POST" action="/signin">
         <!-- Heading -->
         <h4>
             Create an account
@@ -36,6 +36,23 @@
         <div>
             <input type="submit"/>
         </div>
+
+<label>full_name</label>
+<div>
+<input type="text" name="full_name">
+</div>
+<label>username</label>
+<div>
+<input type="text" name="username">
+</div>
+<label>bio (maxlength is 280 L)</label>
+<div>
+<input type="text" name="bio" maxlength="280">
+</div>
+
+
+
+
     </form>
     <br>
     <a href="/signin"><button>signin</button></a>
